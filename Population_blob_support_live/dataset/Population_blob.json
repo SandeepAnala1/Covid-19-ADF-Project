@@ -1,0 +1,71 @@
+{
+    "name": "Population_blob",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureBlobStorageLS",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Excel",
+        "typeProperties": {
+            "sheetName": "hospital-charges",
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "hospital-charges.xlsx",
+                "container": "population"
+            },
+            "firstRowAsHeader": true
+        },
+        "schema": [
+            {
+                "name": "DRG Definition",
+                "type": "String"
+            },
+            {
+                "name": "Provider Id",
+                "type": "String"
+            },
+            {
+                "name": "Provider Name",
+                "type": "String"
+            },
+            {
+                "name": "Provider Street Address",
+                "type": "String"
+            },
+            {
+                "name": "Provider City",
+                "type": "String"
+            },
+            {
+                "name": "Provider State",
+                "type": "String"
+            },
+            {
+                "name": "Provider Zip Code",
+                "type": "String"
+            },
+            {
+                "name": "Hospital Referral Region Description",
+                "type": "String"
+            },
+            {
+                "name": " Total Discharges ",
+                "type": "String"
+            },
+            {
+                "name": " Average Covered Charges ",
+                "type": "String"
+            },
+            {
+                "name": " Average Total Payments ",
+                "type": "String"
+            },
+            {
+                "name": "Average Medicare Payments",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

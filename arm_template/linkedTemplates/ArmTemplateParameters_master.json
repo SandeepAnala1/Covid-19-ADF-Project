@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "Analacovidproject-df"
+        },
+        "AzureBlobStorageLS_connectionString": {
+            "value": ""
+        },
+        "AzureDataLakeStorageLS_accountKey": {
+            "value": ""
+        },
+        "AzureDataLakeStorageLS2_accountKey": {
+            "value": ""
+        },
+        "AzureDataLakeStorageLS_properties_typeProperties_url": {
+            "value": "https://analacovidreportadls.dfs.core.windows.net/"
+        },
+        "AzureDataLakeStorageLS2_properties_typeProperties_url": {
+            "value": "https://analacovidreportadls.dfs.core.windows.net/"
+        },
+        "HttpServer1_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/"
+        },
+        "containerUri": {
+            "value": ""
+        },
+        "containerSasToken": {
+            "value": ""
+        }
+    }
+}

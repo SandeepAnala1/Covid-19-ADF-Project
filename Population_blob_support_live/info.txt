@@ -1,0 +1,6 @@
+selected resource name:		Population_blob
+selected resource type:		dataset
+factory name:			Analacovidproject-df
+factory location:		southindia
+subscription id:		1c1468fb-2669-4823-8383-d79eef9eaac5
+time of download (UTC):		Tue, 21 May 2024 12:36:55 GMT
